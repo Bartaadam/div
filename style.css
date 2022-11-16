@@ -1,0 +1,36 @@
+.box1 {
+    border: solid;
+    background-color: red;
+    transition: 1s;
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+.box2 {
+    border: solid;
+    background-color: green;
+    transition: 1s;
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+.box3 {
+    border: solid;
+    background-color: blue;
+    transition: 1s;
+    width: 400px;
+    height: 200px;
+    clear:both;
+}
+.box1:hover{
+    width: 210px;
+    height: 210px;
+}
+.box2:hover{
+    width: 210px;
+    height: 210px;
+}
+.box3:hover{
+    width: 420px;
+    height: 210px;
+}
